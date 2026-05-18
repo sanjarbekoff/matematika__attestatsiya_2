@@ -1,0 +1,567 @@
+@font-face {
+    font-family: 'Herokid';
+    src: url('/fonts/Herokid-semiboldcondensed.woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InterTight';
+    src: url('/fonts/InterTight-Regular.woff2');
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.main__section {
+    max-width: 393px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    padding-bottom: 38px;
+}
+
+.top_site {
+    width: 100%;
+    background-image: url(/images/bcg.avif);
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 21px;
+}
+
+.header {
+    max-width: 185px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.heading_h1 {
+    font-family: Herokid, sans-serif;
+    font-weight: 600;
+    font-size: clamp(38px, 3vw, 48px);
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FFD287 0%, #FFE7AB 50%, #FFD287 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+}
+
+.top_info {
+    font-family: InterTight, sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: clamp(16px, 3vw, 18px);
+    line-height: 100%;
+    text-align: center;
+    color: #FFFF;
+    margin-bottom: 19px;
+}
+
+.sp_1 {
+    width: 253px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+.restration {
+    max-width: clamp(290px, 28vw, 301px);
+    margin: 0 auto;
+}
+
+.registerBtn {
+    width: 100%;
+    border-radius: 100px;
+    border: hidden;
+    outline: hidden;
+    background: linear-gradient(90deg, #FFE9C8 0%, #FFD9AD 27%, #FFDDB5 51%, #FFDDB5 75%, #FFCC8F 100%);
+    box-shadow: 0px 4px 0px 0px #B69369;
+    padding: 25px 77px;
+    font-family: InterTight, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.7px;
+    text-align: center;
+    vertical-align: middle;
+    color: #885518;
+    margin-bottom: 10px;
+}
+
+.registerBtn:active {
+    transition: 0.3s;
+    box-shadow: 0 0 0 0 #B69369;
+}
+
+.register_info {
+    max-width: 235px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 5px;
+}
+
+.register_info img {
+    margin-top: -5px;
+    width: 15px;
+    height: 23px;
+}
+
+.register_p {
+    font-family: InterTight, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    color: #C0C0C0;
+}
+
+.youll_get {
+    max-width: clamp(290px, 28vw, 317px);
+    margin: 0 auto;
+}
+
+.youll_h2 {
+    font-family: Herokid, sans-serif;
+    font-weight: 600;
+    font-size: clamp(30px, 3vw, 36px);
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.youll_h2 span {
+    color: #224CF8;
+}
+
+.get_card {
+    width: 100%;
+    margin-top: 16px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.get_card img {
+    width: 100%;
+}
+
+.get_p {
+    margin-top: 16px;
+    font-family: InterTight, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.middle {
+    margin-top: 24px;
+}
+
+.middle p {
+    color: #000000;
+}
+
+.about__speaker {
+    margin-top: 32px;
+    max-width: clamp(300px, 28vw, 336px);
+    background-color: #FAFCFF;
+    border-radius: 25px;
+    padding: 24px 20px 0 20px;
+    position: relative;
+}
+
+.fullnmae {
+    font-family: Herokid, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.info__card {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+}
+
+.number {
+    font-family: Herokid, sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    position: relative;
+}
+
+.number img {
+    position: absolute;
+    top: 12px;
+    left: -2px;
+}
+
+.info__card__p {
+    font-family: InterTight, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.sp_2 {
+    margin-bottom: -5px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    z-index: 10;
+}
+
+.blur_bcg {
+    width: 148px;
+    height: 148px;
+    background: #224CF880;
+    backdrop-filter: blur(50%);
+    position: absolute;
+    bottom: 0;
+    left: 95px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.homeModal,
+.homeModalOverlay {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+}
+
+.homeModal {
+    z-index: 30;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.homeModalOverlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.homeFormContainer {
+    position: relative;
+    z-index: 30;
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    padding: 20px 40px 40px;
+    width: 100%;
+    max-width: 520px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homeFormTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeFormTopTitle {
+    font-family: Inter, sans-serif;
+    font-size: clamp(21px, 6.6vw, 24px);
+    margin: 0 0 20px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.closeButton {
+    background: 0 0;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #000;
+}
+
+.homeFormErrorText {
+    color: #e53e3e;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.HomeFormRowInput,
+.HomeFormRowLabel {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 18px;
+}
+
+.HomeFormRow {
+    margin-bottom: 20px;
+}
+
+.HomeFormRowLabel {
+    display: block;
+    margin-bottom: 6px;
+    color: #000;
+}
+
+.HomeFormRowInput {
+    width: 100%;
+    padding: 10px 16px;
+    border: 1px solid #c9c9c9;
+    min-height: 48px;
+    background-color: #f3f7f8;
+    border-radius: 6px;
+    font-weight: 400;
+    outline: 0;
+    height: 50px;
+    transition: border-color 0.2s;
+}
+
+.HomeFormRowInput:focus {
+    border-color: #FFCC8F;
+}
+
+.HomeFormRowInput::placeholder {
+    color: #aaa;
+}
+
+.HomeFormBtn {
+    font-family: sans-serif;
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #FFE9C8 0%, #FFD9AD 27%, #FFDDB5 51%, #FFDDB5 75%, #FFCC8F 100%);
+    box-shadow: 0px 4px 0px 0px #B69369;
+    transition: 0.3s;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 1px solid #c9c9c9;
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+.phone-input-container:focus {
+    border-color: #e71f1f;
+}
+
+.selected-code {
+    display: flex;
+    margin-left: 10px;
+}
+
+.country-selector {
+    position: relative;
+    margin-right: 10px;
+}
+
+.selected-country {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-right: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    min-height: 50px;
+    font-family: sans-serif !important;
+    font-size: 18px;
+    font-weight: 400 !important;
+    min-width: max-content;
+    border: none;
+    background-color: transparent;
+}
+
+.country-dropdown {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 40;
+    max-height: 200px;
+    overflow-y: auto;
+    font-family: sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.country-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 400 !important;
+}
+
+.country-option:hover {
+    background-color: #f3f7f8;
+}
+
+.country-option.selected {
+    background-color: #e6f0fa;
+}
+
+@media screen and (max-width: 768px) {
+    .homeFormContainer {
+        max-width: 100%;
+        padding: 80px 20px 20px;
+        margin: 0;
+        border-radius: 6px;
+        height: 100vh;
+    }
+
+    .homeFormTopTitle {
+        text-align: center;
+        max-width: 408px;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .homeFormTop {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .closeButton {
+        width: 100%;
+        height: 50px;
+        background-color: #000;
+        color: #fff;
+        padding-right: 20px;
+        top: 0;
+        left: 0;
+        justify-content: end;
+    }
+
+    .homeFormErrorText {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .HomeFormRowLabel {
+        margin-bottom: 6px;
+    }
+
+    .HomeFormRowInput {
+        padding: 0 12px;
+        min-height: 40px;
+        background-color: transparent;
+    }
+
+    .HomeFormRowInput::placeholder {
+        color: #a3a3a3;
+    }
+
+    .HomeFormBtn {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .homeFormContainer {
+        max-width: 100%;
+        padding: 80px 20px 20px;
+        margin: 0;
+        border-radius: 6px;
+        height: 100vh;
+    }
+
+    .homeFormTopTitle {
+        text-align: center;
+        margin: 0 auto 15px;
+    }
+
+    .homeFormErrorText {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .HomeFormRowLabel {
+        margin-bottom: 6px;
+    }
+
+    .HomeFormRowInput {
+        padding: 0 12px;
+        min-height: 40px;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+
+    .HomeFormRowInput::placeholder {
+        color: #a3a3a3;
+    }
+
+    .HomeFormBtn {
+        font-size: 16px;
+        padding: 10px 0;
+        margin-top: 24px;
+        height: 50px;
+    }
+}
